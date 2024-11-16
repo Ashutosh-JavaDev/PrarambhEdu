@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./Public/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      backgoundImage:{
+        'custom-bg': "url('../PrarambhEdu/image/pexels-zhuhehuai-716281.jpg')"
+      }
+    },
   },
   plugins: [],
 }
